@@ -1,0 +1,21 @@
+# Specs Directory
+
+This directory will contain feature specifications organized by feature name.
+
+Each feature will have its own subdirectory with:
+- spec.md: Feature specification
+- plan.md: Technical implementation plan
+- tasks.md: Task breakdown
+
+Example structure:
+```
+specs/
+├── jwt-authentication/
+│   ├── spec.md
+│   ├── plan.md
+│   └── tasks.md
+└── account-transfers/
+    ├── spec.md
+    ├── plan.md
+    └── tasks.md
+```
