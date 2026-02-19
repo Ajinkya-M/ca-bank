@@ -81,6 +81,18 @@ CA Bank is a Spring Boot-based banking application designed to provide secure, r
 - **Backwards Compatibility**: Maintain backwards compatibility when possible
 - **Response Time**: Optimize for fast response times to enhance user experience
 
+### 11. AI Development Practices
+- **Strict Execution Rule**: **CRITICAL** - Do not proceed to the next task or execute any code/commands without explicit human permission
+  - For **every single task**, first explain exactly what you are about to do
+  - Clearly state which files will be created, modified, or deleted
+  - Describe the changes that will be made
+  - **Pause and wait for user approval** before executing
+  - Only proceed after receiving explicit "proceed", "yes", "go ahead", or similar confirmation
+  - If uncertain about approval, always ask again rather than assuming
+- **Incremental Implementation**: Break down large features into small, manageable steps
+- **Transparency**: Always explain the reasoning behind technical decisions
+- **Error Recovery**: If an error occurs, explain what went wrong and proposed fixes before proceeding
+
 ## Technology Stack Guidelines
 - **Spring Boot**: Primary framework for application development
 - **Spring Data JPA**: For database interactions
@@ -113,5 +125,5 @@ A feature is considered "done" when:
 
 ---
 
-**Last Updated**: 2026-01-22  
-**Version**: 1.0
+**Last Updated**: 2026-01-23  
+**Version**: 1.1
